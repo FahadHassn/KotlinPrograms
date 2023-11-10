@@ -32,8 +32,8 @@ fun main(){
     items.remove(10)
     println(items.indexOf(13))
     items.set(4,15)
-    for (numbers in items)
-        println(numbers)
+    for ((i, item) in items.withIndex())
+        println("$i, $item")
 
     items.addAll(num)
     for (num11 in items)
