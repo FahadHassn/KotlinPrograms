@@ -117,3 +117,8 @@ fun main(){
     }
 
 }
+fun factorial(fact : Int): Long {
+    return if (fact==1) 1 else{
+        fact*factorial(fact-1)
+    }
+}
