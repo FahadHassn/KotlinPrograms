@@ -1,5 +1,4 @@
 import java.util.*
-
 fun main(){
     while (true){
         val scanner = Scanner(System.`in`)
@@ -76,7 +75,7 @@ fun main(){
                 //Write a program to check if a given string or number is a palindrome.
                 println("String or number is a palindrome:")
 
-                val palindrome = "12321"
+                val palindrome = "tyyui"
                 if (palindrome.uppercase() == palindrome.reversed().uppercase()){
                     println("This is palindrome")
                 }else{
