@@ -38,7 +38,7 @@ fun main(){
                 println("The factorial of given number is: ${factorial(number)}")
 
                 println("Calculate the factorial using loop:")
-                var fact = 1;
+                var fact = 1
                 while (number >=1){
                     fact *= number
                     number--
