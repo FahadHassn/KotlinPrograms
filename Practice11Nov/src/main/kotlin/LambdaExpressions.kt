@@ -13,6 +13,11 @@ fun main(){
     val lowerCaseString = { string : String -> string.lowercase()}
     println("The lowercase is: ${lowerCaseString("Hello")}")
 
+    //val sum = {a: Int , b: Int -> a+b}
+
+    val sum : (Int,Int) -> Int = {a,b -> a+b}
+    println("The sum of a and b is: ${sum(3, 4)}")
+
     //pass lambda expression as a parameter to another function
 
     val numbers = listOf(1,-2,3,-4,5,-6)
