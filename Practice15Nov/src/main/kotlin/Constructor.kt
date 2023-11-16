@@ -49,6 +49,7 @@ class Car(make: String, model: String, type: String, year: Int, tyres: Int, seat
     private var vYear : Int = year
 
     constructor(vehicleMake: String, vehicleModel: String, vehicleType: String, vehicleYear: Int) : this(vehicleMake,vehicleModel,vehicleType,vehicleYear,4,5)
+    constructor(vehicleMake1: String, vehicleModel1: String, vehicleType1: String, vehicleYear1: Int, vehicleTyre1: Int) : this(vehicleMake1,vehicleModel1,vehicleType1,vehicleYear1,vehicleTyre1,5)
 
     fun carInfo() : String{
         return "Make: $vMake\nModel: $vModel\nType: $vType\nYear: $vYear"
@@ -65,7 +66,7 @@ fun main(){
 
     //secondary constructor with/using primary constructor
     println("Vehicle Detail:")
-    val car = Car("Honda","City","Petrol",2022)
+    val car = Car("Honda","City","Petrol",2022,4,5)
     println(car.carInfo())
 
     println()
