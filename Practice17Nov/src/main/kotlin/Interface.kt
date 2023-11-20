@@ -50,18 +50,6 @@ class ChildClass : ParentClass(){
     }
 }
 
-fun interface KRunnable {
-    fun sum()
-}
-
-fun interface NewInterface{
-    fun seal()
-
-    fun s(){
-
-    }
-
-}
 
 
 
