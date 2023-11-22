@@ -73,10 +73,9 @@ abstract class Calculator {
     abstract fun cal(x: Int, y: Int) : Int
 }
 // addition of two numbers
-class Add : Calculator() {
-    override fun cal(x: Int, y: Int): Int {
-        return x + y
-    }
+ class Add : Calculator() {
+
+
 }
 // subtraction of two numbers
 class Sub : Calculator() {

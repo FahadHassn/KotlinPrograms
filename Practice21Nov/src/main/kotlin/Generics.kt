@@ -5,7 +5,7 @@ fun main(){
     val intContainer = Container<Int>(5)
     println(intContainer.getValue())
 
-    val stringContainer = Container<String>("Hello")
+    val stringContainer = Container(0)
     println(stringContainer.getValue())
 
     val scanner = Scanner(System.`in`)
@@ -20,12 +20,12 @@ fun main(){
 
 //generics class
 
-class Container<T>(var data: T){
-    fun setValue(value : T){
+class Container<J>(var data: J){
+    fun setValue(value : J){
         data = value
     }
 
-    fun getValue() : T{
+    fun getValue() : J{
         return data
     }
 

@@ -12,15 +12,14 @@ interface InterfaceProperties {
 }
 
 interface InterfaceMethods {
-    fun description()
+    fun description(){
+
+    }
 }
 
-class MultipleInterface : InterfaceProperties, InterfaceMethods {
-    override val a : Int
-        get() = 50
+class MultipleInterface() : InterfaceProperties, InterfaceMethods {
 
-    override fun description()
-    {
-        println("Multiple Interface implemented")
-    }
+    override val a: Int
+        get() = TODO("Not yet implemented")
+
 }
