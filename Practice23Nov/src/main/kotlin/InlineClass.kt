@@ -1,7 +1,7 @@
 fun main(){
 
 //    val password = Password("Password...")
-//    println("Password is ${password.s}")
+//    println("Password is: ${password.s}")
 
     //inline class with member
 
@@ -11,8 +11,8 @@ fun main(){
 
     //inline class with inheritance
 
-    val name = Name("Fahad")
-    println(name.printName())
+//    val name = Name("Fahad")
+//    println(name.printName())
 
 }
 
