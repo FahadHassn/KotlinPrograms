@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.utils.IMPLEMENTATION
+
 plugins {
     kotlin("jvm") version "1.9.0"
     application
@@ -12,6 +14,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    IMPLEMENTATION("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
 }
 
 tasks.test {
